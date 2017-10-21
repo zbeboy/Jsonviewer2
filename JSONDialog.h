@@ -35,7 +35,7 @@ class JSONDialog : public DockingDlgInterface
 	HTREEITEM insertToTree(HWND hWndDlg,HTREEITEM parent,char *text);
 	void populateTree (HWND hWndDlg, HTREEITEM tree_root, json_t * json_root, int level);
 public :
-	JSONDialog() : DockingDlgInterface(){};
+	JSONDialog() : DockingDlgInterface(IDD_TREE){};
 
     virtual void display(bool toShow = true) const {
         DockingDlgInterface::display(toShow);

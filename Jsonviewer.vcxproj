@@ -358,18 +358,31 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Hyperlinks.cpp" />
     <ClCompile Include="json.c" />
+    <ClCompile Include="JSONDialog.cpp" />
     <ClCompile Include="NppPluginDemo.cpp" />
     <ClCompile Include="PluginDefinition.cpp" />
+    <ClCompile Include="StaticDialog.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Docking.h" />
+    <ClInclude Include="DockingDlgInterface.h" />
     <ClInclude Include="DockingFeature\resource.h" />
+    <ClInclude Include="dockingResource.h" />
+    <ClInclude Include="Hyperlinks.h" />
     <ClInclude Include="json.h" />
+    <ClInclude Include="JSONDialog.h" />
     <ClInclude Include="menuCmdID.h" />
     <ClInclude Include="Notepad_plus_msgs.h" />
     <ClInclude Include="PluginDefinition.h" />
     <ClInclude Include="PluginInterface.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="Scintilla.h" />
+    <ClInclude Include="StaticDialog.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
