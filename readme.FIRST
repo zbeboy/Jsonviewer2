@@ -1,6 +1,13 @@
+说明
+    因Notepad++ 64位刚刚推出时，没有相应格式化JSON的插件，因此本人查看了JSON-View部分原码，
+通过Notepad++官方模板，摸索后做出该插件方便自己，也方便其它有需要的人，目前该作者原插件已支持64位 
+地址：https://github.com/kapilratnani/JSON-Viewer ，各位可以去下载最新版，当然本人也直接编译了
+他的原码，发布了相同功能的JSON View，Thanks for @kapilratnani .
+
 安装  
 1.下载Release压缩包，解压出Jsonviewer2.dll;
-2.拷到Notepad++ 64位安装目录下 plugins目录。
-install
-1.download zip from release,unzip and get Jsonviewer2.dll;
-2.copy Jsonviewer2.dll to Notepad++ 64 bit plugins.
+2.拷到Notepad++ 64位安装目录下的plugins目录 或 设置->导入->导入插件...。
+
+Install
+1.Download zip from release,unzip and get Jsonviewer2.dll;
+2.Copy Jsonviewer2.dll to Notepad++ 64 bit plugins folder or Setting->Import->Import plugin... .
