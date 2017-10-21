@@ -1,15 +1,1 @@
-﻿  json.c
-json.c(132): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(346): note: 参见“strncpy”的声明
-json.c(281): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(346): note: 参见“strncpy”的声明
-json.c(313): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(346): note: 参见“strncpy”的声明
-json.c(1191): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
-  NppPluginDemo.cpp
-  PluginDefinition.cpp
-  正在生成代码...
-    正在创建库 C:\Users\杨逸云\Desktop\notepad ++  json view\jsonviewer2\x64\Unicode Realeas\NppPluginTemplate.lib 和对象 C:\Users\杨逸云\Desktop\notepad ++  json view\jsonviewer2\x64\Unicode Realeas\NppPluginTemplate.exp
-  Jsonviewer.vcxproj -> C:\Users\杨逸云\Desktop\notepad ++  json view\jsonviewer2\x64\Unicode Realeas\NppPluginTemplate.dll
-  Jsonviewer.vcxproj -> C:\Users\杨逸云\Desktop\notepad ++  json view\jsonviewer2\x64\Unicode Realeas\NppPluginTemplate.pdb (Full PDB)
+﻿D:\software\vs2017\vs\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Platform.targets(57,5): error MSB8020: 无法找到 v140 的生成工具(平台工具集 =“v140”)。若要使用 v140 生成工具进行生成，请安装 v140 生成工具。或者，可以升级到当前 Visual Studio 工具，方式是通过选择“项目”菜单或右键单击该解决方案，然后选择“重定解决方案目标”。
